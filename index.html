@@ -1,10 +1,10 @@
-
 <!doctype html>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../dist/output.css" rel="stylesheet">
+  <link href="../dist/output.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
@@ -191,28 +191,231 @@
                 </div>
             </div>  
     </section>
-    <section class="mt-10">
+    <section class="mt-5">
         <div class="container pb-16 p-10 mx-auto">
-            <h2 class="text-2xl lg:text-3xl font-bold text-gray-800 uppercase mb-6 text-center">Featured Products</h2> 
-            <div class="grid grid-cols-4 gap-6">
-                <div class="bg-teal-200 shadow rounded overflow-hidden group">
+            <h2 class="text-2xl lg:text-3xl font-bold text-gray-800 uppercase mb-10 text-center">Trending catalogue</h2> 
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10">
+                <a href="https://www.kindacode.com" class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md border-2 border-teal-500">
+                    <img src="https://cdn.shopify.com/s/files/1/0015/0611/5642/products/Untitleddesign-2022-02-23T144440.116_1024x.png?v=1645587904" alt="Fiction Product"
+                        class="h-36 object-cover rounded-tl-md rounded-tr-md">
+
+                    <div class="px-3 py-2 bg-teal-500 text-white">
+                        <h1 class="font-bold">RedBull</h1> 
+                        <p class="text-sm font-semibold">RedBull 250 ml</p>
+                    </div>
+                </a>
+                <a href="https://www.kindacode.com" class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md border-2 border-teal-500">
+                    <img src="https://gomarket.com.ng/wp-content/uploads/2022/11/monster.jpg" alt="Fiction Product"
+                        class="h-36 object-cover rounded-tl-md rounded-tr-md">
+
+                    <div class="px-3 py-2 bg-teal-500 text-white">
+                        <h1 class="font-bold">Monster Energy</h1> 
+                        <p class="text-sm font-semibold">Monster 250 ml</p>
+                    </div>
+                </a>
+                <a href="https://www.kindacode.com" class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md border-2 border-teal-500">
+                    <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHdM6ZCFYBsI/v0/1200x-1.jpg" alt="Fiction Product"
+                        class="h-36 object-cover rounded-tl-md rounded-tr-md">
+
+                    <div class="px-3 py-2 bg-teal-500 text-white">
+                        <h1 class="font-bold">Cocacola</h1> 
+                        <p class="text-sm font-semibold">Cocacola 250 ml</p>
+                    </div>
+                </a>
+                <a href="https://www.kindacode.com" class="flex flex-col bg-white drop-shadow hover:drop-shadow-lg hover:opacity-70 rounded-md border-2 border-teal-500">
+                    <img src="https://www.u-buy.com.ng/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9hc3IvMGVkZGE1M2EtOWY0Yi00ZWM5LThhNTQtYTgyMjQ5Nzc2NThhLjRiNjY3NmI0NzQ5NmM4MzQyZDM4YTE3MGFkOTEzNzVlLmpwZWc.jpg" alt="Fiction Product"
+                        class="h-36 object-cover rounded-tl-md rounded-tr-md">
+
+                    <div class="px-3 py-2 bg-teal-500 text-white">
+                        <h1 class="font-bold">Pepsi</h1> 
+                        <p class="text-sm font-semibold">Pepsi 250 ml</p>
+                    </div>
+                </a>
+            </div>
+
+            <!--<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"> 
+                <div class="bg-teal-50 shadow rounded overflow-hidden group">
                     <div class="relative">
-                        <img src="https://i5.walmartimages.com/asr/a67035ba-342f-4cd0-aec7-28c8fcdee8cd.1e0159d471f6a65fd996ef86df2c0d6c.jpeg"  alt="product 1" class="w-full"> 
+                        <img src="https://cdn.shopify.com/s/files/1/0015/0611/5642/products/Untitleddesign-2022-02-23T144440.116_1024x.png?v=1645587904" alt="product 1" class="w-full">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="view product">
+                                <i class="fa fa-solid fa-eye"></i>
+                            </a>
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="add to wishlist">
+                                <i class="fa fa-solid fa-heart"></i>
+                            </a>
+                        </div>
                     </div>
                     <div class="pt-4 pb-3 px-4">
                         <a href="#">
-                            <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">Red Bull 250ml Watermelon</h4>
+                            <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">Guyer
+                                Chair</h4>
                         </a>
-                        <div class="flex items-baseline mb-1 space-x-2">
-                            <p class="text-xl text-teal-500 font-semibold">$550.00</p> 
+                        <div class="flex items-baseline mb-1 space-x-2 ">
+                            <p class="text-xl text-primary font-semibold">$45.00</p>
+                            <p class="text-sm text-gray-400 line-through">$55.90</p>
                         </div>
-                        <div class="flex items-center"> 
-                            <div class="text-xs text-gray-500 ml-3">(50 Cases)</div>
+                        <div class="flex items-center">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="text-xs text-gray-500 ml-3">(150)</div>
                         </div>
                     </div>
-                    <a href="#" class="block w-full py-1 text-center text-white bg-teal-500 border border-white rounded-b hover:bg-transparent hover:text-teal-500 hover:border-teal-500  transition">Add
+                    <a href="#" class="block w-full py-1 text-center text-white bg-teal-500 border border-teal-500 rounded-b hover:bg-transparent hover:text-teal-500 hover:border-teal-500 transition font-bold">Add to cart</a>
+                </div>
+
+                <div class="bg-teal-50 shadow rounded overflow-hidden group">
+                    <div class="relative ">
+                        <img src="https://gomarket.com.ng/wp-content/uploads/2022/11/monster.jpg" alt="product 1" class="w-full">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="view product">
+                                <i class="fa fa-solid fa-eye"></i>
+                            </a>
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="add to wishlist">
+                                <i class="fa fa-solid fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-3 px-4 h-max">
+                        <a href="#">
+                            <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">Guyer
+                                Chair</h4>
+                        </a>
+                        <div class="flex items-baseline mb-1 space-x-2 ">
+                            <p class="text-xl text-primary font-semibold">$45.00</p>
+                            <p class="text-sm text-gray-400 line-through">$55.90</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                                <span><i class="fa fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="text-xs text-gray-500 ml-3">(150)</div>
+                        </div>
+                    </div>
+                    <a href="#" class="block w-full py-1 text-center text-white bg-teal-500 border border-teal-500 rounded-b hover:bg-transparent hover:text-teal-500 hover:border-teal-500 transition font-bold">Add to cart</a>
+                </div>
+
+
+                <div class="bg-white shadow rounded overflow-hidden group">
+                    <div class="relative">
+                        <img src="https://m.media-amazon.com/images/I/71E108BpjbS._SL1500_.jpg" alt="product 1" class="w-full">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="view product">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="add to wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-3 px-4">
+                        <a href="#">
+                            <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">Bed
+                                King Size</h4>
+                        </a>
+                        <div class="flex items-baseline mb-1 space-x-2">
+                            <p class="text-xl text-primary font-semibold">$45.00</p>
+                            <p class="text-sm text-gray-400 line-through">$55.90</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="text-xs text-gray-500 ml-3">(150)</div>
+                        </div>
+                    </div>
+                    <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add
                         to cart</a>
-                </div> 
+                </div>
+                <div class="bg-white shadow rounded overflow-hidden group">
+                    <div class="relative">
+                        <img src="https://m.media-amazon.com/images/I/71Wb50wYH7L._SL1500_.jpg" alt="product 1" class="w-full">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="view product">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="add to wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-3 px-4">
+                        <a href="#">
+                            <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+                                Couple Sofa</h4>
+                        </a>
+                        <div class="flex items-baseline mb-1 space-x-2">
+                            <p class="text-xl text-primary font-semibold">$45.00</p>
+                            <p class="text-sm text-gray-400 line-through">$55.90</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="text-xs text-gray-500 ml-3">(150)</div>
+                        </div>
+                    </div>
+                    <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add
+                        to cart</a>
+                </div>
+                <div class="bg-white shadow rounded overflow-hidden group">
+                    <div class="relative">
+                        <img src="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/718hU0Nb0SS._SL1500_.jpg" alt="product 1" class="w-full">
+                        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="view product">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#" class="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition" title="add to wishlist">
+                                <i class="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-3 px-4">
+                        <a href="#">
+                            <h4 class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+                                Mattrass X</h4>
+                        </a>
+                        <div class="flex items-baseline mb-1 space-x-2">
+                            <p class="text-xl text-primary font-semibold">$45.00</p>
+                            <p class="text-sm text-gray-400 line-through">$55.90</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="flex gap-1 text-sm text-yellow-400">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                            <div class="text-xs text-gray-500 ml-3">(150)</div>
+                        </div>
+                    </div>
+                    <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add
+                        to cart</a>
+                </div>-->
             </div>
         </div>
     </section>
